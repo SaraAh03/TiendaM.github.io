@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MascoShop</title>
+    <style>
+        /* Estilos generales */
+        body {
+            background-image: url('https://img.freepik.com/vector-gratis/fondo-patron-animal-transparente-ilustracion-vector-impresion-pata-linda_53876-156206.jpg?size=338&ext=jpg&ga=GA1.1.672697106.1713484800&semt=ais');
+            background-size: cover; /* La imagen cubrirá todo el fondo */
+            background-position:center; /* Centrar la imagen de fondo */
+            background-repeat: no-repeat; /* No repetir la imagen */
+            font-family:Arial, sans-serif;
+            font-size: 15px; /* Tamaño de letra para toda la página */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #E59866;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #E59866;
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+        }
+        .banner {
+             display: flex;
+             justify-content: center; /* Centrado horizontal */
+             align-items: center; /* Centrado vertical */
+             text-align: center; /* Centrar el contenido del banner */
+             padding: 50px 0; /* Espaciado interno del banner */
+             background-image: url('https://domesticasdecolombia.com/wp-content/uploads/2020/01/MASCOTAS-1024x512.jpg'); /* Ruta de la imagen de fondo del banner */
+             background-size: cover; /* La imagen cubrirá todo el fondo del banner */
+             background-position: center; /* La imagen estará centrada en el banner */
+             color: #fff; /* Color del texto */
+        }
+        .titulo {
+            text-align: center;
+            font-size: 40px; /* Tamaño del título */
+            margin-bottom: 20px; /* Espacio inferior del título */
+        }
+
+        .descripcion {
+            text-align: center;
+            font-size: 20px; /* Tamaño del texto de la descripción */
+            margin-bottom: 20px; /* Espacio inferior de la descripción */
+            color: #070707;
+        }
+            /* Estilos para el banner principal */
+        .menu {
+            list-style-type: none; /* Quitar los estilos de lista */
+            padding: 0; /* Eliminar el relleno predeterminado de la lista */
+            text-align: center; /* Centrar el texto de los elementos de la lista */
+        }
+
+        .menu li {
+            display: inline-block; /* Mostrar los elementos de lista en línea */
+            margin-right: 10px; /* Espacio entre los botones */
+        }
+
+        .menu li a {
+            text-decoration: none; /* Quitar el subrayado de los enlaces */
+            padding: 8px 16px; /* Espacio interno del botón */
+            background-color:#D35400; /* Color de fondo del botón */
+            color: #fff; /* Color del texto del botón */
+            border-radius: 5px; /* Borde redondeado del botón */
+        }
+
+        .redes-sociales {
+            /* Estilos para los enlaces de redes sociales */
+        }
+
+        .footer-banner {
+            /* Estilos para el banner del pie de página */
+        }
+        .imagen {
+            display: block; /* Convertir la imagen en bloque para poder centrarla */
+            margin: 0 auto 20px; /* Centrar la imagen y agregar espacio inferior */
+            max-width: 100%; /* Ajustar el tamaño máximo de la imagen */
+            height: auto; /* Permitir que la altura se ajuste automáticamente */
+        }
+
+        .descripcion {
+            font-size: 18px; /* Tamaño del texto de la descripción */
+            margin-bottom: 20px; /* Espacio inferior de la descripción */
+        }
+        .contenido {
+            padding: 20px; /* Espaciado interno del contenido */
+            color: #333; /* Color del texto */
+            text-align: center;
+        }
+        .titulo {
+            font-family:Brush Script MT;
+            font-size: 50px; /* Tamaño de letra para el título */
+            margin-bottom: 8px; /* Espacio inferior del título */
+        }
+
+        /* Animación */
+        @keyframes fadeIn {
+            from {
+                opacity: 5;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="banner" id="bannerPrincipal">
+            <!-- Contenido del banner principal -->
+            <h1>MascoShop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes_somos.html">Quiénes Somos</a></li>
+                <li><a href="productos_servicios.html">Productos/Servicios</a></li>
+                <li><a href="contactenos.html">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <main>
+        <div class="contenido">
+            <h1 class="titulo">Bienvenido a MascoShop</h1>
+            <img src="https://www.claro.com.co/portal/co/recursos_contenido/1704321159915-bm-Cuidado-de-mascota.jpg" alt="Banner" class="imagen">
+            <p class="descripcion">Somos una empresa comprometida, somos un establecimiento independiente, especializado en productos y servicios para mascotas, que se enfoca en ofrecer una amplia variedad de productos de calidad y brindar atención personalizada a sus clientes.</p>
+            <a href="productos_servicios.html">Explora nuestros productos y servicios</a>
+        </div>
+        </main>
+    
+    <footer>
+        <div class="footer-banner" id="bannerFooter">
+            <!-- Contenido del banner del pie de página -->
+            <p>Derechos Reservados © 2024 MascoShop</p>
+        </div>
+        <div class="redes-sociales">
+            <!-- Enlaces a las redes sociales -->
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+        </div>
+        <div class="copyright">
+            <!-- Información de derechos reservados y contacto del web master -->
+            <p>Contacto: MascoShop@gmail.com</p>
+        </div>
+    </footer>
+
+    <script>
+        // Validación del formulario de contacto
+        function validarFormulario() {
+            var nombre = document.getElementById('nombre').value;
+            var correo = document.getElementById('correo').value;
+            var telefono = document.getElementById('telefono').value;
+            var genero = document.getElementById('genero').value;
+            
+            if (nombre === "" || correo === "" || telefono === "" || genero === "") {
+                alert("Por favor, complete todos los campos obligatorios.");
+                return false;
+            }
+            return true;
+        }
+
+        // Animación del banner principal
+        var bannerPrincipal = document.getElementById('bannerPrincipal');
+        bannerPrincipal.style.animation = "fadeIn 2s ease";
+
+        // Animación del banner del pie de página
+        var bannerFooter = document.getElementById('bannerFooter');
+        bannerFooter.style.animation = "fadeIn 2s ease";
+    </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctenos</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fad289; /* Color de fondo */
+            background-image: url('https://media.istockphoto.com/id/1210828938/es/foto/perros-jugando-en-el-parque-p%C3%BAblico.jpg?s=612x612&w=0&k=20&c=mgWZMtTlsUnNL0OOWxAXPVTP6H9-78QNaWFfwh3ZQNE='); /* Ruta de la imagen de fondo */
+            background-size: cover; /* La imagen cubrirá todo el fondo */
+            background-position:center; /* Centrar la imagen de fondo */
+            background-repeat: no-repeat; /* No repetir la imagen */
+        }
+
+        header {
+            background-color: #E59866;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .menu {
+            list-style-type: none; /* Quitar los estilos de lista */
+            padding: 0; /* Eliminar el relleno predeterminado de la lista */
+            text-align: center; /* Centrar el texto de los elementos de la lista */
+        }
+
+        .menu li {
+            display: inline-block; /* Mostrar los elementos de lista en línea */
+            margin-right: 10px; /* Espacio entre los botones */
+        }
+
+        .menu li a {
+            text-decoration: none; /* Quitar el subrayado de los enlaces */
+            padding: 8px 16px; /* Espacio interno del botón */
+            background-color: #D35400; /* Color de fondo del botón */
+            color: #fff; /* Color del texto del botón */
+            border-radius: 5px; /* Borde redondeado del botón */
+        }
+
+        /* Estilos para el contenido */
+        .contenido {
+            padding: 20px; /* Espaciado interno del contenido */
+            color: #333; /* Color del texto */
+            text-align: center;
+        }
+
+        .formulario {
+            max-width: 600px; /* Ancho máximo del formulario */
+            margin: 0 auto; /* Centrar el formulario horizontalmente */
+            background-color: #f3c38d; /* Color de fondo del formulario */
+            padding: 20px; /* Espaciado interno del formulario */
+            border-radius: 20px; /* Borde redondeado del formulario */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor del formulario */
+        }
+
+        .formulario input[type="text"],
+        .formulario input[type="email"],
+        .formulario textarea {
+            width: 100%; /* Ancho completo para los campos de texto */
+            padding: 10px; /* Espaciado interno de los campos de texto */
+            margin-bottom: 10px; /* Espacio inferior entre los campos */
+            border: 1px solid #ccc; /* Borde alrededor de los campos */
+            border-radius: 5px; /* Borde redondeado de los campos */
+            box-sizing: border-box; /* Incluir el relleno y el borde en el ancho total */
+        }
+
+        .formulario input[type="submit"] {
+            background-color: #c59121; /* Color de fondo del botón de enviar */
+            color: #fff; /* Color del texto del botón de enviar */
+            border: none; /* Quitar el borde del botón de enviar */
+            padding: 10px 20px; /* Espaciado interno del botón de enviar */
+            border-radius: 5px; /* Borde redondeado del botón de enviar */
+            cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes_somos.html">Quiénes Somos</a></li>
+                <li><a href="productos_servicios.html">Productos/Servicios</a></li>
+                <li><a href="contactenos.html">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenido">
+        <div class="formulario">
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="post">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <textarea name="mensaje" placeholder="Mensaje" rows="4" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
